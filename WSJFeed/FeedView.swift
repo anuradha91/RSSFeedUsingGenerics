@@ -21,8 +21,6 @@ class FeedView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchData()
-        tableView.estimatedRowHeight = 155.0
-        tableView.rowHeight = UITableView.automaticDimension
     }
     
     private func fetchData()
